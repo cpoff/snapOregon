@@ -13,13 +13,6 @@ landing page: [wireframe](https://moqups.com/angelariggs/zbq8VzMg/p:a418af527)
 
 Outline of mvp [Mind Map](https://bubbl.us/mindmap?h=2b3e64/5740cb/28h3pIVw29bJE)
 
-##Areas of responsibility
-* Angela: state parks API, express server, foundation/SCSS, user backbone
-* Nate: google maps API, database (orchestrate), tests, park backbone
-* Curt: flickr API, heroku, bdd descriptions, parks backbone
-
-##Initial BDD descriptions:
-
 ##To contribute
 ######Local workflow
 * Pull from master
