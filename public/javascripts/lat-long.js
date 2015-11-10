@@ -1,8 +1,9 @@
 var APP = APP || {};
 (function (APP) {
-	var url = 'http://opris.oprd';
+	var url = 'http://oregonstateparks.org/data/index.cfm/';
+//	var url = 'http://opris.oprd';
 	var data = {
-		endpoint: '/parks',
+		endpoint: "parks/",
 		parkName: ""
 	};
 	var parkNameArray = []; //create an array that has a list of park names, for typeahead
