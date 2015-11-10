@@ -1,6 +1,6 @@
 var APP = APP || {};
 (function (APP) {
-	var url = 'http://oregonstateparks.org/data/index.cfm';
+	var url = 'http://opris.oprd';
 	var data = {
 		endpoint: '/parks',
 		parkName: ""
