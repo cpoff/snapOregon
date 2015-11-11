@@ -1,8 +1,6 @@
 #snapOR
 
-url: [snapOR on Heroku](https://snaporegon.herokuapp.com/)
-
-landing page: [wireframe](https://moqups.com/angelariggs/zbq8VzMg/p:a418af527)
+url: [snapOR on Heroku](https://snapor.herokuapp.com/)
 
 ##APIs
 * [Oregon State Parks](http://oregonstateparks.org/data/index.cfm/)
