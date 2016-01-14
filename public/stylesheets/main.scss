@@ -34,20 +34,23 @@ body {
 	text-align: center;
 	padding-left: 20%;
 	padding-right: 20%;
-	margin-top: 10px;
+	margin-top: 40px;
 	p {
-	font-family: $sans-serif;
+	font-family: $serif;
 	color: $white;
-	font-size: 16px;
+	font-size: 1.5em;
 	}
 	.sec-1 p {
 		margin-bottom: 0;
+		font-family: $serif;
 	}
 	.sec-2 p {
 		margin-bottom: 0;
+		font-family: $serif;
 	}
 	.sec-3 p {
 		margin-bottom: 50px;
+		font-family: $serif;
 	}
 }
 
@@ -219,7 +222,7 @@ MAP CANVAS
 	// width: 85%;
 	// height: 600px;
 	// width: 1000px;
-	height: 65%;
+	height: 85%;
 	width: 87%;
 	margin: 0 auto;
 }
@@ -241,6 +244,8 @@ FLICKR PICTURES
 	align-content: center;
 	align-items: center;
 	margin-bottom: 50px;
+	padding-right: 10%;
+	padding-left: 10%; 
 }
 .flickrPhoto{
 	flex-grow: 0;
@@ -250,12 +255,12 @@ FLICKR PICTURES
 	margin-bottom: 5%;
 }
 
-#pictures {
+#pictures p {
 	font-family: $serif;
-	//text-align: center;
 	color: $white;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 25%;
+	padding-right: 25%;
+	font-size: 22px;
 }
 
 .flickrPhoto:hover{
@@ -264,18 +269,19 @@ FLICKR PICTURES
 	transform: scale(1.2);
 }
 
-#no-photos {
-	color: $white;
-	font-family: $serif;
-	margin-left: 20%;
-}
+// .no-photos {
+// 	color: $white;
+// 	font-family: $serif;
+// 	margin-left: 20%;
+// 	font-size: 22px;
+// }
 
 /******************
 MOBILE VERSION
 ******************/
 @media only screen and (max-width: 40em){
 	.name h1 {
-		background-color: $yellow;
+		background-color: $blue;
 		font-family: $cursive;
 		font-size: 5em;
 		text-align: center;
@@ -298,7 +304,7 @@ MOBILE VERSION
 		width: 70%;
 		margin: 20%;
 	}
-	div#parkList span.twitter-typeahead{
+	div#parkList span.twitter-typeahead{ 
 		width: 100%;
 		margin-top: 50%;
 	}

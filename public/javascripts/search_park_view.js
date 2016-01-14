@@ -3,7 +3,7 @@ var SearchParkView = Backbone.View.extend({
 	el: '#parks',
 	render: function(){
 		//Explore Parks modal, appears in dom when you click Explore Parks
-		this.$el.html('<div id="parkList"><input id="parkName" class="typeahead" type="text" name="Enter park name:" style="font-family: \'Robot Slab\'" placeholder="Ex: \'cape kiwanda\', \'silver falls state park\'"><a href="#" class="close-reveal-modal"><input id="searchParks" class="submit button" class="submit" value="Explore"></a></div>');
+		this.$el.html('<div id="parkList"><input id="parkName" class="typeahead" type="text" name="Enter park name:" style="font-family: \'Robot Slab\'" placeholder="Ex: \'cape kiwanda\', \'silver falls state park\'"><a href="#" class="close-reveal-modal"><input id="searchParks" class="submit button" class="submit" value="Explore"></a><p>Scroll below the map to view pictures</p></div>');
 	},
 
 	searchParks: function(){
@@ -32,7 +32,7 @@ var SearchParkView = Backbone.View.extend({
 							$("<a href=" + link + "><img class=flickrPhoto src=" + source + "></a>").appendTo('#pictures');
 						}
 					} else { //if newJson doesn't have any pictures, the an error message is appended to the page
-						$("<p id='no-photos'>Sorry, we couldn't find any photos from that park. Looks like you've got an adventure waiting! </p>").appendTo('#pictures');
+						$("<p class='no-photos'>We didn't find any photos from that park. Adventure forth and photograph! </p>").appendTo('#pictures');
 					}
 				} else { //if the user has already searched for a park (as indicated by a park name and either pictures or an error message appended below the google map), all of those elements of the previous search are removed from the dom, and the query results from the current search are appended.
 					$("#parkLabel").remove();
@@ -47,7 +47,7 @@ var SearchParkView = Backbone.View.extend({
 							$("<a href=" + link + "><img class=flickrPhoto src=" + source + "></a>").appendTo('#pictures');
 						}
 					} else {
-						$("<p>Sorry, we couldn't find any photos from that park. Looks like you've got an adventure waiting!</p>").appendTo('#pictures');
+						$("<p class='no-photos'>We didn't find any photos from that park. Adventure forth and photograph!</p>").appendTo('#pictures');
 					}
 				}
 			});

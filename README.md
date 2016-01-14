@@ -1,6 +1,8 @@
 #snapOR
 
-url: [snapOR on Heroku](https://snapor.herokuapp.com/)
+url: [snapOR on Heroku](https://snaporegon.herokuapp.com/)
+
+landing page: [wireframe](https://moqups.com/angelariggs/zbq8VzMg/p:a418af527)
 
 ##APIs
 * [Oregon State Parks](http://oregonstateparks.org/data/index.cfm/)
@@ -10,6 +12,13 @@ url: [snapOR on Heroku](https://snapor.herokuapp.com/)
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/) 
 
 Outline of mvp [Mind Map](https://bubbl.us/mindmap?h=2b3e64/5740cb/28h3pIVw29bJE)
+
+##Areas of responsibility
+* Angela: state parks API, express server, foundation/sass, user view, cloud database: user login/logout/update
+* Nate: google maps API, initiating database (orchestrate), ui tests, park backbone, heroku, foundation/sass, gulp, explore parks modal and search, mobile styles
+* Curt: flickr API, heroku,  parks model/collection
+
+##Initial BDD descriptions:
 
 ##To contribute
 ######Local workflow
