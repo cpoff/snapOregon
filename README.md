@@ -11,16 +11,6 @@ landing page: [wireframe](https://moqups.com/angelariggs/zbq8VzMg/p:a418af527)
 * [Weather Underground](http://www.wunderground.com/weather/api?MR=1)
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/) 
 
-Outline of mvp [Mind Map](https://bubbl.us/mindmap?h=2b3e64/5740cb/28h3pIVw29bJE)
-
-##Areas of responsibility
-* Angela: state parks API, express server, foundation/sass, user view, cloud database: user login/logout/update
-* Nate: google maps API, initiating database (orchestrate), ui tests, park backbone, heroku, foundation/sass, gulp, explore parks modal and search, mobile styles
-* Curt: flickr API, heroku,  parks model/collection
-
-##Initial BDD descriptions:
-
-##To contribute
 ######Local workflow
 * Pull from master
 * Create your own branch
