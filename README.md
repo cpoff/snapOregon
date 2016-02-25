@@ -11,7 +11,7 @@ landing page: [wireframe](https://moqups.com/angelariggs/zbq8VzMg/p:a418af527)
 * [Weather Underground](http://www.wunderground.com/weather/api?MR=1)
 * [Google Maps](https://developers.google.com/maps/documentation/javascript/) 
 
-Outline of mvp [Mind Map](https://bubbl.us/mindmap?h=2b3e64/5740cb/28h3pIVw29bJE)
+Old outline of mvp [Mind Map](https://bubbl.us/mindmap?h=2b3e64/5740cb/28h3pIVw29bJE)
 
 ##Areas of responsibility
 * Angela: state parks API, express server, foundation/sass, user view, cloud database: user login/logout/update
